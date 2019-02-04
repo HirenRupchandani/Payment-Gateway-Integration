@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>Payment Gateway Integration</title>
+<style>
+    .details input{
+                width: 20%;
+            }
+            .details input[type="text"],input[type="email"]{
+                border: none;
+                border-bottom: 3px solid #000;
+                background: transparent;
+                outline: none;
+                height: 40px;
+                font-size: 12px;
+                padding: 10px 10px;
+            }
+    
+    body{
+        background: url("back.jpg"); 
+        }
+    
+    h1 {
+        text-align:center;
+        color:black;
+        background-color:rgba(100, 0, 250, 0.8);
+        border:2px solid BLACK;    
+    }  
+    
+    button {
+        background-color: rgba(255, 0, 0, 0.6);
+        color:white;
+        padding: 14px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border:2px solid black;
+    }
+</style>
+</head>
+    
+<body style="background-color:rgba(0, 0, 0, 0.8); text-align:center;">
+    <h1>THE SPARKS FOUNDATION</h1>
+    
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    
+    <div class="details">
+    <form action="Paytm_Web_Sample_Kit_PHP-master/PaytmKit/TxnTest.php" method="POST" name="donate">
+	<div class="form-group">
+        <label for=""><B>Enter Email : </B></label>
+		<input type="email" class="form-control" id="EMAIL" name="EMAIL" required> &ensp;&ensp;
+        <label for=""><B>Enter Amount : </B></label>
+		<input type="text" class="form-control" id="TXN_AMOUNT" name="TXN_AMOUNT" required>
+	</div>
+
+
+<br>
+	<button type="submit" name="submit">DONATE</button>
+</form>
+</div>    
+    
+</body>
+
+
+</html>
