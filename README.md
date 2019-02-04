@@ -1,4 +1,4 @@
-# payment-gateway
+# Payment Gateway Integration
 
 A simple website that connects users to donate money to the foundation.
 On the home page (i.e. index.php), the user is asked to enter their email and the amount they wish to donate.
